@@ -114,6 +114,13 @@ nav {
   align-items: center;
 }
 
+.product2 h4 {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
 .product3 {
   height: 13rem;
   display: flex;
@@ -123,13 +130,44 @@ nav {
 
 .product3 img {
   max-height: 9rem;
-  max-width: 288px;
+  max-width: 9rem;
   margin: 2rem 0;
 }
 
-.product2 h4 {
-  width: 100%;
-  background-color: black;
-  text-align: center;
-  padding: 0.5rem 0;
+/**info**/
+#infoBox {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
 }
+
+.info {
+  width: 35%;
+}
+
+.info h4 {
+  padding: 1rem 0 1rem 2rem;
+  background-color: black;
+}
+
+.info p {
+  color: black;
+  margin-top: 0.25rem;
+}
+
+/**footer**/
+footer {
+  background-color: black;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer2 {
+  width: 960px;
+}
+
+/**media queries**/
